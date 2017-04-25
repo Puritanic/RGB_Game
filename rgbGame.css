@@ -1,0 +1,72 @@
+body {
+	background-color: #232323;
+    font-family: 'Oswald', sans-serif;
+    margin:0; /* moves body to take whole screen */
+}
+ h1 {
+	font-size: 40px;
+    text-align: center;
+     margin:0;
+}
+.header {
+    padding: 2% 0;
+    background: #3A77A8;
+    line-height: 6em;
+    font-family: 'Walter Turncoat', cursive;
+}
+.header span {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+.colorSquare {
+	width: 30%;
+	background: #012E59;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+    transition: all 1.0s;
+    -webkit-transition: all 1.0s;
+    -moz-transition: all 1.0s;
+}
+.navBar {
+    text-align: center;
+    background: antiquewhite;
+    height: 30px;
+}
+#parentDiv {
+    margin: 2% auto 0;
+    max-width: 600px;
+}
+#colorDisplay {
+    font-size: 100px;
+}
+#message {
+    display: inline-block;
+    width: 20%;
+}
+button {
+    height: 100%; /* takes height from parent element */
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #3A77A8;
+    transition: all 1.0s; /* transition animation */
+    -webkit-transition: all 1.0s; /* for Safari and Chrome */
+    -moz-transition: all 1.0s; /* for Mozzila */
+    outline: none; /* removes outline form button whenn button is pressed(focus-out) */
+}
+button:hover {
+    background: #3A77A8;
+    color: antiquewhite;
+}
+.selected {
+    background: #3A77A8;
+    color: antiquewhite;
+}
+.mode {
+
+}
